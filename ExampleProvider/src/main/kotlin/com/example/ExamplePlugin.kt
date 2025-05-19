@@ -13,7 +13,7 @@ class TestPlugin: Plugin() {
 
     override fun load(context: Context) {
         activity = context as AppCompatActivity
-        // All providers should be added in this manner
+        // All providers should be added in this manner //t
         registerMainAPI(ExampleProvider(this))
 
         openSettings = { ctx ->
